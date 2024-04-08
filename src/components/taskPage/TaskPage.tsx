@@ -8,7 +8,7 @@ export const TaskPage = () => {
     const [tasks, setTasks] = useState<TodoTask[]>([]);
 
     const handleTaskCreated = (task: TodoTask) => {
-        const tasksArr = tasks;
+        const tasksArr = [...tasks];
         tasksArr.push(task);
         console.log("created task")
         setTasks(tasksArr);
