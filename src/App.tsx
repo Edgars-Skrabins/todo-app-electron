@@ -8,7 +8,6 @@ export type TodoTask = {
 }
 
 const App = () => {
-
     return (
         <div className={'container'}>
             <TaskPage/>

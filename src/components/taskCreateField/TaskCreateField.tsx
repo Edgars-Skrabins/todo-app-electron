@@ -36,7 +36,6 @@ export const TaskCreateField = (props: TaskCreateFieldProps) => {
                 Task description
                 <input type="text" className={styles.inputs} ref={descriptionInputRef}/>
             </label>
-
             <button className={styles.button} onClick={handleTaskCreation}> Create task</button>
         </div>
     );
